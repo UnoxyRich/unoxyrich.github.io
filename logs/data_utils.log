@@ -774,3 +774,308 @@ ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), 
 2025-08-06 16:26:10,034 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:26:10] "GET / HTTP/1.1" 200 -
 2025-08-06 16:26:10,107 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:26:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2025-08-06 16:26:10,353 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:26:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 19:42:38,187 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-08 19:42:38,188 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-08 19:42:38,209 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-08 19:42:38,209 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-08 19:42:38,218 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-08 19:42:38,219 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-08 19:42:45,446 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-08 19:42:45,694 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-08 19:42:45,694 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 19:42:47,113 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-08-08 19:42:47,113 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-08 19:42:47,194 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-08 19:43:00,505 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-08 19:43:00,505 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-08 19:43:00,511 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-08 19:43:00,511 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-08 19:43:00,523 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-08 19:43:00,523 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-08 19:43:07,517 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-08 19:43:07,690 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-08 19:43:07,691 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 19:43:07,711 - werkzeug - WARNING -  * Debugger is active!
+2025-08-08 19:43:07,731 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-08 19:43:17,543 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:43:17] "GET / HTTP/1.1" 200 -
+2025-08-08 19:43:17,543 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-08-08 19:43:17,869 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:43:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 19:43:17,873 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:43:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 19:43:17,975 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-08 19:43:17,977 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:43:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-08 19:43:19,070 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-08 19:43:36,205 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-08 19:43:36,205 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-08 19:43:36,210 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-08 19:43:36,217 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-08 19:43:36,228 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-08 19:43:36,228 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-08 19:43:41,871 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-08 19:43:42,061 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-08 19:43:42,061 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 19:43:42,450 - werkzeug - WARNING -  * Debugger is active!
+2025-08-08 19:43:42,474 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-08 19:43:43,503 - logic - WARNING - Diagnosis attempt: Input='cold fever cough stuffed nose breathing issues...' -> Predicted='Bronchitis (Acute)' Confidence=39.7% (Emb=56.7%, KW=0.0%)
+2025-08-08 19:43:43,514 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:43:43] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-08 19:43:43,544 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:43:43] "GET / HTTP/1.1" 200 -
+2025-08-08 19:43:44,048 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:43:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 19:43:44,051 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:43:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 19:45:14,781 - logic - WARNING - Diagnosis attempt: Input='cold fever cough stuffed nose breathing issuesmutr...' -> Predicted='Common Cold' Confidence=29.9% (Emb=42.7%, KW=0.0%)
+2025-08-08 19:45:14,802 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:45:14] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-08 19:45:15,008 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:45:15] "GET / HTTP/1.1" 200 -
+2025-08-08 19:45:15,115 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:45:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 19:45:15,334 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:45:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 19:45:20,877 - logic - WARNING - Diagnosis attempt: Input='cold fever cough stuffed nose breathing issuesmutr...' -> Predicted='Common Cold' Confidence=29.9% (Emb=42.7%, KW=0.0%)
+2025-08-08 19:45:20,902 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:45:20] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-08 19:45:21,217 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:45:21] "GET / HTTP/1.1" 200 -
+2025-08-08 19:45:21,483 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:45:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 19:45:21,546 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:45:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 19:45:23,672 - logic - WARNING - Diagnosis attempt: Input='cold fever cough stuffed nose breathing issuesmutr...' -> Predicted='Common Cold' Confidence=29.9% (Emb=42.7%, KW=0.0%)
+2025-08-08 19:45:23,697 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:45:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-08 19:45:24,009 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:45:24] "GET / HTTP/1.1" 200 -
+2025-08-08 19:45:24,274 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:45:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 19:45:24,337 - werkzeug - INFO - 127.0.0.1 - - [08/Aug/2025 19:45:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 19:45:35,945 - werkzeug - INFO - 192.168.31.119 - - [08/Aug/2025 19:45:35] "GET / HTTP/1.1" 200 -
+2025-08-08 19:45:35,978 - werkzeug - INFO - 192.168.31.119 - - [08/Aug/2025 19:45:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 19:45:35,982 - werkzeug - INFO - 192.168.31.119 - - [08/Aug/2025 19:45:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 19:45:36,018 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-08 19:45:36,021 - werkzeug - INFO - 192.168.31.119 - - [08/Aug/2025 19:45:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-08 19:45:40,234 - werkzeug - INFO - 192.168.31.119 - - [08/Aug/2025 19:45:40] "GET / HTTP/1.1" 200 -
+2025-08-08 19:45:40,265 - werkzeug - INFO - 192.168.31.119 - - [08/Aug/2025 19:45:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 19:45:40,266 - werkzeug - INFO - 192.168.31.119 - - [08/Aug/2025 19:45:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 19:45:43,623 - werkzeug - INFO - 192.168.31.119 - - [08/Aug/2025 19:45:43] "GET / HTTP/1.1" 200 -
+2025-08-08 19:45:43,655 - werkzeug - INFO - 192.168.31.119 - - [08/Aug/2025 19:45:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 19:45:43,656 - werkzeug - INFO - 192.168.31.119 - - [08/Aug/2025 19:45:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 19:46:03,733 - werkzeug - INFO - 192.168.31.1 - - [08/Aug/2025 19:46:03] "GET / HTTP/1.1" 200 -
+2025-08-08 19:46:03,770 - werkzeug - INFO - 192.168.31.1 - - [08/Aug/2025 19:46:03] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-08-08 19:46:03,771 - werkzeug - INFO - 192.168.31.1 - - [08/Aug/2025 19:46:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-08 19:46:03,960 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-08 19:46:03,961 - werkzeug - INFO - 192.168.31.1 - - [08/Aug/2025 19:46:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-08 19:46:32,583 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:46:32] "GET / HTTP/1.1" 200 -
+2025-08-08 19:46:33,182 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\_internal.py', reloading
+2025-08-08 19:46:33,208 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\serving.py', reloading
+2025-08-08 19:46:33,923 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:46:33] "GET / HTTP/1.1" 200 -
+2025-08-08 19:46:34,969 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-08 19:47:15,481 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-08 19:47:15,482 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-08 19:47:15,497 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-08 19:47:15,497 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-08 19:47:15,512 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-08 19:47:15,512 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-08 19:48:25,454 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-08 19:48:25,636 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-08 19:48:25,637 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 19:48:25,714 - werkzeug - WARNING -  * Debugger is active!
+2025-08-08 19:48:25,734 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-08 19:48:26,502 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:48:26] "GET / HTTP/1.1" 200 -
+2025-08-08 19:48:26,505 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:48:26] "GET / HTTP/1.1" 200 -
+2025-08-08 19:48:26,507 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:48:26] "GET / HTTP/1.1" 200 -
+2025-08-08 19:48:26,879 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:48:26] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-08-08 19:48:26,891 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:48:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-08 19:48:27,048 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-08 19:48:27,059 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:48:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-08 19:48:43,666 - logic - WARNING - Diagnosis attempt: Input='Bdhsb shs shs shs dhcbs. Andjx s s nx s...' -> Predicted='Epilepsy' Confidence=9.3% (Emb=13.2%, KW=0.0%)
+2025-08-08 19:48:43,678 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:48:43] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-08 19:48:43,868 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:48:43] "GET / HTTP/1.1" 200 -
+2025-08-08 19:48:44,272 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:48:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 19:48:44,272 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:48:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 19:50:32,899 - logic - WARNING - Diagnosis attempt: Input='Fever cold coughing...' -> Predicted='Influenza (Seasonal Flu)' Confidence=43.3% (Emb=61.9%, KW=0.0%)
+2025-08-08 19:50:32,909 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:50:32] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-08 19:50:33,095 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:50:33] "GET / HTTP/1.1" 200 -
+2025-08-08 19:50:33,517 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:50:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 19:50:33,531 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 19:50:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 19:51:23,506 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\utils\\data\\datapipes\\utils\\__init__.py', reloading
+2025-08-08 19:51:23,570 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\nested\\_internal\\__init__.py', reloading
+2025-08-08 19:51:23,619 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\testing\\_internal\\__init__.py', reloading
+2025-08-08 19:51:23,977 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\utils\\_sympy\\__init__.py', reloading
+2025-08-08 19:51:23,997 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\testing\\_internal\\distributed\\__init__.py', reloading
+2025-08-08 19:51:24,024 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\onnx\\_internal\\__init__.py', reloading
+2025-08-08 19:51:24,025 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\onnx\\_internal\\exporter\\__init__.py', reloading
+2025-08-08 19:51:25,948 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-08 19:51:42,481 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-08 19:51:42,481 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-08 19:51:42,492 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-08 19:51:42,492 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-08 19:51:42,508 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-08 19:51:42,508 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-08 19:51:47,176 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-08 19:51:47,457 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-08 19:51:47,457 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 19:51:47,491 - werkzeug - WARNING -  * Debugger is active!
+2025-08-08 19:51:47,531 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-08 20:29:21,151 - werkzeug - INFO - 176.32.195.85 - - [08/Aug/2025 20:29:21] "GET / HTTP/1.0" 200 -
+2025-08-08 20:29:24,607 - app - WARNING - 404 Error: Requested path '/v2/_catalog' not found.
+2025-08-08 20:29:24,612 - werkzeug - INFO - 176.32.195.85 - - [08/Aug/2025 20:29:24] "[33mGET /v2/_catalog HTTP/1.1[0m" 404 -
+2025-08-08 20:30:01,805 - app - WARNING - 404 Error: Requested path '/aaa9' not found.
+2025-08-08 20:30:01,806 - werkzeug - INFO - 46.161.50.108 - - [08/Aug/2025 20:30:01] "[33mGET /aaa9 HTTP/1.1[0m" 404 -
+2025-08-08 20:30:02,731 - app - WARNING - 404 Error: Requested path '/aab9' not found.
+2025-08-08 20:30:02,732 - werkzeug - INFO - 46.161.50.108 - - [08/Aug/2025 20:30:02] "[33mGET /aab9 HTTP/1.1[0m" 404 -
+2025-08-08 20:30:02,901 - app - WARNING - 404 Error: Requested path '/v2/_catalog' not found.
+2025-08-08 20:30:02,902 - werkzeug - INFO - 176.32.195.85 - - [08/Aug/2025 20:30:02] "[33mGET /v2/_catalog HTTP/1.1[0m" 404 -
+2025-08-08 21:13:44,772 - werkzeug - INFO - 122.10.198.194 - - [08/Aug/2025 21:13:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 21:13:45,563 - werkzeug - INFO - 122.10.198.194 - - [08/Aug/2025 21:13:45] "GET / HTTP/1.1" 200 -
+2025-08-08 21:13:47,286 - werkzeug - INFO - 122.10.198.194 - - [08/Aug/2025 21:13:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 21:13:48,117 - werkzeug - INFO - 122.10.198.194 - - [08/Aug/2025 21:13:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 21:13:53,765 - werkzeug - INFO - 122.10.198.194 - - [08/Aug/2025 21:13:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 21:13:57,350 - werkzeug - INFO - 122.10.198.194 - - [08/Aug/2025 21:13:57] "GET / HTTP/1.1" 200 -
+2025-08-08 21:13:58,339 - werkzeug - INFO - 122.10.198.194 - - [08/Aug/2025 21:13:58] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-08-08 21:14:00,389 - werkzeug - INFO - 122.10.198.194 - - [08/Aug/2025 21:14:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-08 21:14:28,236 - werkzeug - INFO - 122.10.198.194 - - [08/Aug/2025 21:14:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 21:14:30,288 - app - WARNING - 404 Error: Requested path '/robots.txt' not found.
+2025-08-08 21:14:30,289 - werkzeug - INFO - 122.10.198.194 - - [08/Aug/2025 21:14:30] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+2025-08-08 21:14:34,749 - werkzeug - INFO - 122.10.198.194 - - [08/Aug/2025 21:14:34] "GET / HTTP/1.1" 200 -
+2025-08-08 21:14:36,963 - werkzeug - INFO - 122.10.198.194 - - [08/Aug/2025 21:14:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 21:14:36,964 - werkzeug - INFO - 122.10.198.194 - - [08/Aug/2025 21:14:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 21:33:16,301 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\_strobelight\\__init__.py', reloading
+2025-08-08 21:33:16,302 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\_vendor\\__init__.py', reloading
+2025-08-08 21:33:16,376 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\fx\\experimental\\__init__.py', reloading
+2025-08-08 21:33:16,405 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\ao\\quantization\\pt2e\\__init__.py', reloading
+2025-08-08 21:33:16,406 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\ao\\ns\\__init__.py', reloading
+2025-08-08 21:33:16,406 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\ao\\ns\\fx\\__init__.py', reloading
+2025-08-08 21:33:16,408 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\_dispatch\\__init__.py', reloading
+2025-08-08 21:33:16,411 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\_custom_op\\__init__.py', reloading
+2025-08-08 21:33:16,795 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\_inductor\\runtime\\__init__.py', reloading
+2025-08-08 21:33:16,801 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\_dynamo\\backends\\__init__.py', reloading
+2025-08-08 21:33:16,808 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\distributed\\algorithms\\_checkpoint\\__init__.py', reloading
+2025-08-08 21:33:16,816 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\distributed\\_shard\\sharding_spec\\chunk_sharding_spec_ops\\__init__.py', reloading
+2025-08-08 21:33:19,180 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-08 21:34:17,312 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-08 21:34:17,313 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-08 21:34:17,328 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-08 21:34:17,328 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-08 21:34:17,342 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-08 21:34:17,342 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-08 21:34:26,083 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-08 21:34:26,456 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-08 21:34:26,457 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 21:34:26,710 - werkzeug - WARNING -  * Debugger is active!
+2025-08-08 21:34:26,753 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-08 21:48:35,793 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-08-08 21:48:35,794 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 21:48:35] "GET / HTTP/1.1" 200 -
+2025-08-08 21:48:36,192 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 21:48:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 21:48:36,197 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 21:48:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 21:48:37,484 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-08 21:48:49,651 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-08 21:48:49,652 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-08 21:48:49,656 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-08 21:48:49,657 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-08 21:48:49,666 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-08 21:48:49,666 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-08 21:48:54,914 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-08 21:48:55,062 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-08 21:48:55,062 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 21:48:55,084 - werkzeug - WARNING -  * Debugger is active!
+2025-08-08 21:48:55,101 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-08 21:48:55,707 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 21:48:55] "GET / HTTP/1.1" 200 -
+2025-08-08 21:48:56,089 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 21:48:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 21:48:56,091 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 21:48:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-08 21:49:11,594 - logic - WARNING - Diagnosis attempt: Input='Fever cold coughing...' -> Predicted='Influenza (Seasonal Flu)' Confidence=43.3% (Emb=61.9%, KW=0.0%)
+2025-08-08 21:49:11,604 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 21:49:11] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-08 21:49:11,772 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 21:49:11] "GET / HTTP/1.1" 200 -
+2025-08-08 21:49:12,110 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 21:49:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-08 21:49:12,111 - werkzeug - INFO - 101.82.104.62 - - [08/Aug/2025 21:49:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-09 16:49:37,261 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-09 16:49:37,261 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-09 16:49:37,276 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-09 16:49:37,276 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-09 16:49:37,286 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-09 16:49:37,286 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-09 16:49:44,149 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-09 16:49:44,390 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-09 16:49:44,391 - app - INFO - SymptomChecker initialized successfully.
+2025-08-09 16:49:45,778 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-08-09 16:49:45,778 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-09 16:49:45,885 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-09 16:49:56,613 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-09 16:49:56,613 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-09 16:49:56,619 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-09 16:49:56,619 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-09 16:49:56,628 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-09 16:49:56,628 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-09 16:50:02,568 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-09 16:50:02,728 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-09 16:50:02,729 - app - INFO - SymptomChecker initialized successfully.
+2025-08-09 16:50:02,747 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 16:50:02,767 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-09 16:50:22,454 - werkzeug - INFO - 192.168.31.130 - - [09/Aug/2025 16:50:22] "GET / HTTP/1.1" 200 -
+2025-08-09 16:50:22,627 - werkzeug - INFO - 192.168.31.130 - - [09/Aug/2025 16:50:22] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-08-09 16:50:22,627 - werkzeug - INFO - 192.168.31.130 - - [09/Aug/2025 16:50:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-09 16:50:22,719 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
+2025-08-09 16:50:22,733 - werkzeug - INFO - 192.168.31.130 - - [09/Aug/2025 16:50:22] "[33mGET /static/icon.jpg HTTP/1.1[0m" 404 -
+2025-08-09 16:50:46,805 - werkzeug - INFO - 122.10.198.194 - - [09/Aug/2025 16:50:46] "GET / HTTP/1.1" 200 -
+2025-08-09 16:50:50,801 - werkzeug - INFO - 122.10.198.194 - - [09/Aug/2025 16:50:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-09 16:50:53,485 - app - WARNING - 404 Error: Requested path '/video/tv shows/sg2/Squid.Game.Season.2.COMPLETE.ENG.1080p.NF.WEB-DL.x264.ESubs.[5.8GB].[MP4].[S02.Full]-[y2flix]/Squid.Game.S02E01.ENG.1080p.NF.x264-[y2flix.cc].mp4' not found.
+2025-08-09 16:50:53,486 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 16:50:53] "[33mGET /video/tv%20shows/sg2/Squid.Game.Season.2.COMPLETE.ENG.1080p.NF.WEB-DL.x264.ESubs.[5.8GB].[MP4].[S02.Full]-[y2flix]/Squid.Game.S02E01.ENG.1080p.NF.x264-[y2flix.cc].mp4 HTTP/1.1[0m" 404 -
+2025-08-09 16:51:04,822 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
+2025-08-09 16:51:04,823 - werkzeug - INFO - 122.10.198.194 - - [09/Aug/2025 16:51:04] "[33mGET /static/icon.jpg HTTP/1.1[0m" 404 -
+2025-08-09 16:51:21,115 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 16:51:21] "GET / HTTP/1.1" 200 -
+2025-08-09 16:51:21,218 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 16:51:21] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-08-09 16:51:21,218 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 16:51:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-09 16:51:21,241 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
+2025-08-09 16:51:21,241 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 16:51:21] "[33mGET /static/icon.jpg HTTP/1.1[0m" 404 -
+2025-08-09 16:51:54,778 - werkzeug - INFO - 192.168.31.130 - - [09/Aug/2025 16:51:54] "GET / HTTP/1.1" 200 -
+2025-08-09 16:51:54,812 - werkzeug - INFO - 192.168.31.130 - - [09/Aug/2025 16:51:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-09 16:51:54,814 - werkzeug - INFO - 192.168.31.130 - - [09/Aug/2025 16:51:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-09 19:02:39,405 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 19:02:39] "GET / HTTP/1.1" 200 -
+2025-08-09 19:02:39,426 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 19:02:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-09 19:02:39,431 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 19:02:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-09 19:02:39,456 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
+2025-08-09 19:02:39,456 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 19:02:39] "[33mGET /static/icon.jpg HTTP/1.1[0m" 404 -
+2025-08-09 19:03:10,036 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 19:03:10] "GET / HTTP/1.1" 200 -
+2025-08-09 19:03:10,078 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 19:03:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-09 19:03:10,078 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 19:03:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-09 19:03:21,089 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 19:03:21] "GET / HTTP/1.1" 200 -
+2025-08-09 19:03:21,119 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 19:03:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-09 19:03:21,119 - werkzeug - INFO - 192.168.31.1 - - [09/Aug/2025 19:03:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-09 19:03:33,159 - werkzeug - INFO - 61.171.214.142 - - [09/Aug/2025 19:03:33] "GET / HTTP/1.1" 200 -
+2025-08-09 19:03:33,775 - werkzeug - INFO - 61.171.214.142 - - [09/Aug/2025 19:03:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-09 19:03:33,775 - werkzeug - INFO - 61.171.214.142 - - [09/Aug/2025 19:03:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-09 19:20:56,217 - werkzeug - INFO - 3.132.23.201 - - [09/Aug/2025 19:20:56] "GET / HTTP/1.1" 200 -
+2025-08-09 19:23:11,556 - werkzeug - INFO - 3.132.23.201 - - [09/Aug/2025 19:23:11] "GET / HTTP/1.1" 200 -
+2025-08-09 19:24:38,456 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\logging\\__init__.py', reloading
+2025-08-09 19:24:38,477 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\http\\server.py', reloading
+2025-08-09 19:24:38,482 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\_internal.py', reloading
+2025-08-09 19:24:38,482 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\serving.py', reloading
+2025-08-09 19:24:38,482 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\socketserver.py', reloading
+2025-08-09 19:24:38,484 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\threading.py', reloading
+2025-08-09 19:24:39,743 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-09 19:24:51,894 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-09 19:24:51,894 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-09 19:24:51,901 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-09 19:24:51,901 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-09 19:24:51,911 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-09 19:24:51,912 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-09 19:24:57,003 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-09 19:24:57,171 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-09 19:24:57,171 - app - INFO - SymptomChecker initialized successfully.
+2025-08-09 19:24:57,192 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 19:24:57,213 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-09 19:26:02,013 - werkzeug - ERROR - 3.132.23.201 - - [09/Aug/2025 19:26:02] code 400, message Bad request syntax ('SSH-2.0-Go')
+2025-08-09 19:26:02,013 - werkzeug - INFO - 3.132.23.201 - - [09/Aug/2025 19:26:02] "[31m[1mSSH-2.0-Go[0m" 400 -
+2025-08-09 19:27:32,332 - werkzeug - ERROR - 3.132.23.201 - - [09/Aug/2025 19:27:32] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x9096\x84\x8d')
+2025-08-09 21:12:27,382 - app - WARNING - 404 Error: Requested path '/v2/' not found.
+2025-08-09 21:12:27,396 - werkzeug - INFO - 40.76.248.118 - - [09/Aug/2025 21:12:27] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+2025-08-09 21:12:27,397 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-08-09 21:12:29,728 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-09 21:12:42,158 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-09 21:12:42,160 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-09 21:12:42,167 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-09 21:12:42,167 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-09 21:12:42,176 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-09 21:12:42,177 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-09 21:12:47,537 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-09 21:12:47,715 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-09 21:12:47,716 - app - INFO - SymptomChecker initialized successfully.
+2025-08-09 21:12:47,737 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 21:12:47,758 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-09 21:38:58,265 - werkzeug - INFO - 64.62.156.182 - - [09/Aug/2025 21:38:58] "GET / HTTP/1.1" 200 -
+2025-08-09 21:39:16,751 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-09 21:39:16,753 - werkzeug - INFO - 64.62.156.191 - - [09/Aug/2025 21:39:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-09 22:08:24,665 - werkzeug - ERROR - 79.124.49.202 - - [09/Aug/2025 22:08:24] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*ид\x00\x00\x00\x00\x00Cookie:')
+2025-08-09 22:08:24,665 - werkzeug - INFO - 79.124.49.202 - - [09/Aug/2025 22:08:24] "[31m[1m\x03\x00\x00/*ид\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -

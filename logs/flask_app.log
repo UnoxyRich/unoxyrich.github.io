@@ -121,3 +121,30 @@ ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), 
 2025-08-06 16:25:39,806 - app - INFO - SymptomChecker initialized successfully.
 2025-08-06 16:25:52,572 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
 2025-08-06 16:26:09,359 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 19:42:45,694 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 19:43:07,691 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 19:43:17,975 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-08 19:43:42,061 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 19:45:36,018 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-08 19:46:03,960 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-08 19:48:25,637 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 19:48:27,048 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-08 19:51:47,457 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 20:29:24,607 - app - WARNING - 404 Error: Requested path '/v2/_catalog' not found.
+2025-08-08 20:30:01,805 - app - WARNING - 404 Error: Requested path '/aaa9' not found.
+2025-08-08 20:30:02,731 - app - WARNING - 404 Error: Requested path '/aab9' not found.
+2025-08-08 20:30:02,901 - app - WARNING - 404 Error: Requested path '/v2/_catalog' not found.
+2025-08-08 21:14:30,288 - app - WARNING - 404 Error: Requested path '/robots.txt' not found.
+2025-08-08 21:34:26,457 - app - INFO - SymptomChecker initialized successfully.
+2025-08-08 21:48:55,062 - app - INFO - SymptomChecker initialized successfully.
+2025-08-09 16:49:44,391 - app - INFO - SymptomChecker initialized successfully.
+2025-08-09 16:50:02,729 - app - INFO - SymptomChecker initialized successfully.
+2025-08-09 16:50:22,719 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
+2025-08-09 16:50:53,485 - app - WARNING - 404 Error: Requested path '/video/tv shows/sg2/Squid.Game.Season.2.COMPLETE.ENG.1080p.NF.WEB-DL.x264.ESubs.[5.8GB].[MP4].[S02.Full]-[y2flix]/Squid.Game.S02E01.ENG.1080p.NF.x264-[y2flix.cc].mp4' not found.
+2025-08-09 16:51:04,822 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
+2025-08-09 16:51:21,241 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
+2025-08-09 19:02:39,456 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
+2025-08-09 19:24:57,171 - app - INFO - SymptomChecker initialized successfully.
+2025-08-09 21:12:27,382 - app - WARNING - 404 Error: Requested path '/v2/' not found.
+2025-08-09 21:12:47,716 - app - INFO - SymptomChecker initialized successfully.
+2025-08-09 21:39:16,751 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
