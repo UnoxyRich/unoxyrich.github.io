@@ -4,14 +4,16 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>AI Symptom Diagnosis</title>
+ <!-- Add website icon -->
+ <link rel="icon" href="{{ url_for('static', filename='icon.jpg') }}" type="image/jpeg">
  <!-- Link to our CSS file -->
  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
  <div class="container fade-in">
   <h1>AI Symptom Diagnosis</h1>
-  
-  <form id="symptomForm" method="POST">
+
+  <form id="symptomForm" method="POST" action="{{ url_for('index') }}">
    <label for="symptomsInput">Enter your symptoms:</label><br>
    <input 
        type="text" 
