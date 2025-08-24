@@ -151,3 +151,17 @@ ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), 
 2025-08-13 18:21:27,021 - app - INFO - SymptomChecker initialized successfully.
 2025-08-13 18:21:44,789 - app - INFO - SymptomChecker initialized successfully.
 2025-08-13 22:58:42,306 - app - INFO - SymptomChecker initialized successfully.
+2025-08-17 10:31:02,108 - app - INFO - SymptomChecker initialized successfully.
+2025-08-17 10:31:34,835 - app - INFO - SymptomChecker initialized successfully.
+2025-08-17 10:33:03,485 - app - INFO - SymptomChecker initialized successfully.
+2025-08-17 10:33:42,138 - app - INFO - SymptomChecker initialized successfully.
+2025-08-17 10:34:28,430 - app - INFO - SymptomChecker initialized successfully.
+2025-08-17 10:58:08,584 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
+2025-08-17 11:02:42,276 - app - INFO - SymptomChecker initialized successfully.
+2025-08-17 11:07:09,724 - app - INFO - SymptomChecker initialized successfully.
+2025-08-17 11:07:11,964 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
+2025-08-17 11:10:05,214 - app - INFO - Feedback received: Input='gradual loss of peripheral (side) vision, tunnel vision in advanced stages, halos around lights, eye pain and redness (in acute angle-closure glaucoma', Predicted='Glaucoma', Type='correct'
+2025-08-18 10:46:10,724 - app - INFO - SymptomChecker initialized successfully.
+2025-08-18 10:46:29,210 - app - INFO - SymptomChecker initialized successfully.
+2025-08-18 10:46:30,963 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
+2025-08-18 10:46:48,141 - app - INFO - SymptomChecker initialized successfully.

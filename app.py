@@ -43,12 +43,13 @@ def load_available_symptoms():
     if _symptoms_loaded: return True
     
     # Access the dataframe (_df) from the initialized checker instance
-    if checker and checker._df is not None: 
+    if checker and checker.get_df() is not None:
         try:
             all_symptoms = set()
             # Ensure 'normalized_symptoms_list' column exists
-            if 'normalized_symptoms_list' in checker._df.columns:
-                for symp_list in checker._df['normalized_symptoms_list']:
+            df = checker.get_df()
+            if 'normalized_symptoms_list' in df.columns:
+                for symp_list in df['normalized_symptoms_list']:
                     # Ensure symp_list is iterable (e.g., not NaN or None)
                     if isinstance(symp_list, list):
                         for s in symp_list:
