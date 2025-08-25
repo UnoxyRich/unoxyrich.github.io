@@ -42,15 +42,7 @@
      <p><strong>Predicted Disease:</strong> {{ result.disease }}</p>
      <p><strong>Treatment:</strong> {{ result.treatment }}</p>
      <p><strong>Confidence:</strong> {{ result.confidence }}%</p>
-     
-     <!-- Feedback Buttons -->
-     <div class="feedback-buttons">
-        <p>Is this diagnosis correct?</p>
-        <button class="feedback-btn correct" data-input="{{ result.symptoms }}" data-disease="{{ result.disease }}" data-feedback="correct">Correct</button>
-        <button class="feedback-btn incorrect" data-input="{{ result.symptoms }}" data-disease="{{ result.disease }}" data-feedback="incorrect">Incorrect</button>
-     </div>
-    </div>
-    {% endif %}
+
 
     <!-- Possible Diagnoses Section -->
     {% if possible_diagnoses %}
@@ -61,10 +53,7 @@
         <p><strong>Disease:</strong> {{ diagnosis.disease }}</p>
         <p><strong>Confidence:</strong> {{ diagnosis.confidence }}%</p>
         <p><strong>Treatment:</strong> {{ diagnosis.treatment }}</p>
-        <div class="feedback-buttons">
-         <p>Is this correct?</p>
-         <button class="feedback-btn correct" data-input="{{ result.symptoms if result else user_symptoms_input }}" data-disease="{{ diagnosis.disease }}" data-feedback="correct">Correct</button>
-         <button class="feedback-btn incorrect" data-input="{{ result.symptoms if result else user_symptoms_input }}" data-disease="{{ diagnosis.disease }}" data-feedback="incorrect">Incorrect</button>
+
         </div>
      </div>
      {% endfor %}

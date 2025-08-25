@@ -178,34 +178,6 @@ def chrome_devtools_json():
     """
     return jsonify({}), 200 # Return an empty JSON with a 200 OK status
 
-
-# --- Feedback Route ---
-# Note: CSRF protection is recommended for production, especially for POST requests.
-# You'd typically use Flask-WTF or similar libraries.
-@app.route('/feedback', methods=['POST'])
-def feedback():
-    try:
-        data = request.get_json()
-        user_input = data.get('user_input')
-        predicted_disease = data.get('predicted_disease')
-        feedback_type = data.get('feedback_type') # e.g., 'correct', 'incorrect'
-
-        if not all([user_input, predicted_disease, feedback_type]):
-            app.logger.warning("Incomplete feedback data received.")
-            return jsonify({"status": "error", "message": "Incomplete data provided."}), 400
-
-        if checker:
-            checker.record_feedback(user_input, predicted_disease, feedback_type)
-            app.logger.info(f"Feedback received: Input='{user_input}', Predicted='{predicted_disease}', Type='{feedback_type}'")
-            return jsonify({"status": "success", "message": "Feedback recorded."})
-        else:
-            app.logger.error("Feedback received but SymptomChecker not initialized.")
-            return jsonify({"status": "error", "message": "Service unavailable."}), 503
-
-    except Exception as e:
-        app.logger.error(f"Error processing feedback: {e}", exc_info=True)
-        return jsonify({"status": "error", "message": "Internal server error processing feedback."}), 500
-
 # --- Error Handlers ---
 @app.errorhandler(404)
 def page_not_found(e):
