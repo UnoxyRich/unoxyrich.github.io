@@ -1118,3 +1118,87 @@ ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), 
 2025-08-13 22:58:42,306 - app - INFO - SymptomChecker initialized successfully.
 2025-08-13 22:58:42,550 - werkzeug - WARNING -  * Debugger is active!
 2025-08-13 22:58:42,576 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-25 17:41:37,265 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 17:41:37,265 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 17:41:37,271 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 17:41:37,271 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 17:41:37,280 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 17:41:37,280 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 17:41:42,368 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 17:41:42,529 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 17:41:42,529 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 17:41:43,821 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-08-25 17:41:43,822 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 17:41:43,839 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 17:41:53,874 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 17:41:53,875 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 17:41:53,880 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 17:41:53,881 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 17:41:53,889 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 17:41:53,889 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 17:41:58,548 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 17:41:58,701 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 17:41:58,701 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 17:41:58,725 - werkzeug - WARNING -  * Debugger is active!
+2025-08-25 17:41:58,742 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-25 17:43:08,668 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 17:43:08,668 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 17:43:08,674 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 17:43:08,674 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 17:43:08,683 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 17:43:08,684 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 17:43:13,906 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 17:43:14,080 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 17:43:14,080 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 17:43:15,378 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-08-25 17:43:15,379 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 17:43:15,397 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 17:43:27,022 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 17:43:27,022 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 17:43:27,029 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 17:43:27,029 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 17:43:27,041 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 17:43:27,041 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 17:43:31,225 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 17:43:31,400 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 17:43:31,400 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 17:43:31,428 - werkzeug - WARNING -  * Debugger is active!
+2025-08-25 17:43:31,447 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-25 17:44:43,921 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:44:43] "GET / HTTP/1.1" 200 -
+2025-08-25 17:44:44,254 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:44:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-25 17:44:44,255 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 17:44:44,257 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:44:44] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 17:44:44,259 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 17:44:44,260 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:44:44] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-08-25 17:44:44,261 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:44:44] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2025-08-25 17:44:47,466 - logic - INFO - Diagnosis attempt: Input='high temperature, hacking cough, throat pain, runn...' -> Predicted='Flu' Confidence=100.0% (Emb=100.0%, KW=100.0%)
+2025-08-25 17:44:47,477 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:44:47] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-25 17:44:47,796 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:44:47] "GET / HTTP/1.1" 200 -
+2025-08-25 17:44:48,048 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:44:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 17:44:48,126 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 17:44:48,128 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:44:48] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 17:44:48,128 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 17:44:48,128 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:44:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 17:44:48,129 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:44:48] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2025-08-25 17:45:21,631 - logic - INFO - Diagnosis attempt: Input='high temperature, hacking cough, throat pain, runn...' -> Predicted='Flu' Confidence=100.0% (Emb=100.0%, KW=100.0%)
+2025-08-25 17:45:21,654 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:45:21] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-25 17:45:21,985 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:45:21] "GET / HTTP/1.1" 200 -
+2025-08-25 17:45:22,228 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:45:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 17:45:22,352 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 17:45:22,353 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 17:45:22,355 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:45:22] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 17:45:22,355 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:45:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 17:45:22,355 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:45:22] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2025-08-25 17:45:43,599 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:45:43] "GET / HTTP/1.1" 200 -
+2025-08-25 17:45:43,951 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 17:45:43,952 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:45:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 17:45:43,953 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:45:43] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 17:45:43,955 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:45:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 17:45:43,965 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 17:45:43,966 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:45:43] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
