@@ -1536,3 +1536,62 @@ ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), 
 2025-08-25 16:58:46,879 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
 2025-08-25 16:58:46,880 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
 2025-08-25 16:58:48,709 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 17:03:13,810 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 17:03:13,810 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 17:03:13,816 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 17:03:13,816 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 17:03:13,825 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 17:03:13,826 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 17:03:21,689 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 17:03:21,858 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 17:03:21,858 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 17:03:23,268 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-08-25 17:03:23,268 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 17:03:23,286 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 17:03:34,391 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 17:03:34,392 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 17:03:34,398 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 17:03:34,398 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 17:03:34,407 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 17:03:34,408 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 17:03:42,169 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 17:03:42,339 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 17:03:42,339 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 17:03:42,367 - werkzeug - WARNING -  * Debugger is active!
+2025-08-25 17:03:42,386 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-25 17:03:43,098 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\loaders.py', reloading
+2025-08-25 17:03:43,205 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:03:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-25 17:03:45,301 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 17:03:56,284 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 17:03:56,284 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 17:03:56,289 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 17:03:56,290 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 17:03:56,299 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 17:03:56,299 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 17:04:03,671 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 17:04:03,836 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 17:04:03,836 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 17:04:03,861 - werkzeug - WARNING -  * Debugger is active!
+2025-08-25 17:04:03,878 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-25 17:04:04,568 - logic - INFO - Diagnosis attempt: Input='high temperature, hacking cough, throat pain, runn...' -> Predicted='Flu' Confidence=100.0% (Emb=100.0%, KW=100.0%)
+2025-08-25 17:04:04,586 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:04] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-25 17:04:04,789 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-25 17:04:04,791 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-25 17:04:04,792 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-25 17:04:04,794 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-25 17:04:04,795 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-25 17:04:04,796 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-25 17:04:04,796 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-25 17:04:04,990 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-25 17:04:05,239 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:05] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-25 17:04:05,341 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:05] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-25 17:04:05,353 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:05] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=w2z4gSiWOOcL7FJBrOIg HTTP/1.1" 200 -
+2025-08-25 17:04:05,821 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-25 17:04:10,900 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-25 17:04:11,223 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-25 17:04:11,224 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-25 17:04:11,488 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=w2z4gSiWOOcL7FJBrOIg HTTP/1.1[0m" 304 -
+2025-08-25 17:04:11,550 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:04:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

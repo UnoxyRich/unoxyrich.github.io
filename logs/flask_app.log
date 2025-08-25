@@ -173,3 +173,6 @@ ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), 
 2025-08-25 16:47:51,018 - app - INFO - SymptomChecker initialized successfully.
 2025-08-25 16:55:59,258 - app - INFO - SymptomChecker initialized successfully.
 2025-08-25 16:58:13,251 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 17:03:21,858 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 17:03:42,339 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 17:04:03,836 - app - INFO - SymptomChecker initialized successfully.
