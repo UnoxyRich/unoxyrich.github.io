@@ -165,3 +165,7 @@ ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), 
 2025-08-18 10:46:29,210 - app - INFO - SymptomChecker initialized successfully.
 2025-08-18 10:46:30,963 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
 2025-08-18 10:46:48,141 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 12:50:18,982 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 12:50:38,242 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 12:54:11,549 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
+2025-08-25 12:54:30,492 - app - INFO - SymptomChecker initialized successfully.

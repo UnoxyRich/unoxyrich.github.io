@@ -1348,3 +1348,67 @@ ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), 
 2025-08-18 11:17:35,924 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 11:17:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
 2025-08-18 11:18:12,562 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 11:18:12] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
 2025-08-18 11:18:12,874 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 11:18:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 12:50:10,965 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 12:50:10,966 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 12:50:10,980 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 12:50:10,980 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 12:50:10,992 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 12:50:10,992 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 12:50:18,703 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 12:50:18,982 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 12:50:18,982 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 12:50:20,497 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-08-25 12:50:20,497 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 12:50:20,583 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 12:50:31,553 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 12:50:31,554 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 12:50:31,560 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 12:50:31,560 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 12:50:31,572 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 12:50:31,572 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 12:50:38,062 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 12:50:38,241 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 12:50:38,242 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 12:50:38,267 - werkzeug - WARNING -  * Debugger is active!
+2025-08-25 12:50:38,287 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-25 12:54:11,089 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:54:11] "GET / HTTP/1.1" 200 -
+2025-08-25 12:54:11,091 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-08-25 12:54:11,399 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:54:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-25 12:54:11,439 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:54:11] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-08-25 12:54:11,549 - app - WARNING - 404 Error: Requested path '/static/icon.jpg' not found.
+2025-08-25 12:54:11,562 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:54:11] "[33mGET /static/icon.jpg HTTP/1.1[0m" 404 -
+2025-08-25 12:54:13,209 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 12:54:24,553 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 12:54:24,554 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 12:54:24,561 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 12:54:24,561 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 12:54:24,573 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 12:54:24,573 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 12:54:30,313 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 12:54:30,492 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 12:54:30,492 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 12:54:30,519 - werkzeug - WARNING -  * Debugger is active!
+2025-08-25 12:54:30,540 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-25 12:55:00,792 - logic - WARNING - Diagnosis attempt: Input='cold fever cough stuffed nose breathing issues...' -> Predicted='Bronchitis (Acute)' Confidence=39.7% (Emb=56.7%, KW=0.0%)
+2025-08-25 12:55:00,803 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:55:00] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-25 12:55:01,035 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:55:01] "GET / HTTP/1.1" 200 -
+2025-08-25 12:55:01,179 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:55:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 12:55:01,370 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:55:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 12:55:15,925 - logic - WARNING - Diagnosis attempt: Input='fever dry cough tiredness...' -> Predicted='Tuberculosis (TB)' Confidence=44.6% (Emb=63.7%, KW=0.0%)
+2025-08-25 12:55:15,936 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:55:15] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-25 12:55:16,249 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:55:16] "GET / HTTP/1.1" 200 -
+2025-08-25 12:55:16,514 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:55:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 12:55:16,577 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:55:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 12:55:40,406 - logic - WARNING - Diagnosis attempt: Input='fever runny nose sore throat...' -> Predicted='Flu' Confidence=44.0% (Emb=62.9%, KW=0.0%)
+2025-08-25 12:55:40,417 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:55:40] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-25 12:55:40,729 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:55:40] "GET / HTTP/1.1" 200 -
+2025-08-25 12:55:40,993 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:55:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 12:55:41,071 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:55:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 12:56:01,175 - logic - INFO - Diagnosis attempt: Input='high temperature, hacking cough, throat pain, runn...' -> Predicted='Flu' Confidence=100.0% (Emb=100.0%, KW=100.0%)
+2025-08-25 12:56:01,187 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:56:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-25 12:56:01,500 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:56:01] "GET / HTTP/1.1" 200 -
+2025-08-25 12:56:01,766 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:56:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 12:56:01,828 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:56:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
