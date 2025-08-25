@@ -163,3 +163,26 @@ ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), 
 2025-08-25 17:45:22,353 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
 2025-08-25 17:45:43,951 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
 2025-08-25 17:45:43,965 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 17:46:53,893 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 17:46:53,893 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 17:47:27,296 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 17:47:27,297 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 17:57:19,892 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:02:59,407 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:02:59,410 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 18:03:09,495 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:03:09,499 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 18:18:51,568 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:18:51,573 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 18:18:55,397 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:18:55,638 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 18:19:01,442 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:19:01,445 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 18:20:56,747 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 18:21:45,404 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 18:21:46,475 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:21:46,735 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 18:22:40,269 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 18:22:57,445 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 18:22:58,498 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:22:58,608 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.

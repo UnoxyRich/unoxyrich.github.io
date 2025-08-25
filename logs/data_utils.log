@@ -1202,3 +1202,147 @@ ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), 
 2025-08-25 17:45:43,955 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:45:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
 2025-08-25 17:45:43,965 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
 2025-08-25 17:45:43,966 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:45:43] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2025-08-25 17:46:53,297 - logic - INFO - Diagnosis attempt: Input='high temperature, hacking cough, throat pain, runn...' -> Predicted='Flu' Confidence=100.0% (Emb=100.0%, KW=100.0%)
+2025-08-25 17:46:53,308 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:46:53] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-25 17:46:53,555 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:46:53] "GET / HTTP/1.1" 200 -
+2025-08-25 17:46:53,630 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:46:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 17:46:53,893 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 17:46:53,893 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 17:46:53,894 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:46:53] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 17:46:53,894 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:46:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 17:46:53,894 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:46:53] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2025-08-25 17:47:26,634 - logic - INFO - Diagnosis attempt: Input='headache...' -> Predicted='Sinusitis (Sinus Infection)' Confidence=60.9% (Emb=44.1%, KW=100.0%)
+2025-08-25 17:47:26,642 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:47:26] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-25 17:47:26,953 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:47:26] "GET / HTTP/1.1" 200 -
+2025-08-25 17:47:27,220 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:47:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 17:47:27,296 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 17:47:27,297 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:47:27] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 17:47:27,297 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 17:47:27,298 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:47:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 17:47:27,298 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:47:27] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2025-08-25 17:57:19,892 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 17:57:19,894 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:57:19] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-25 17:57:19,894 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:57:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 17:57:19,894 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 17:57:19] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 18:02:59,002 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:02:59] "GET / HTTP/1.1" 200 -
+2025-08-25 18:02:59,251 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:02:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 18:02:59,407 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:02:59,410 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:02:59] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 18:02:59,410 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 18:02:59,411 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:02:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 18:02:59,411 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:02:59] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2025-08-25 18:03:08,770 - logic - WARNING - Diagnosis attempt: Input='fever dry cough tiredness...' -> Predicted='Tuberculosis (TB)' Confidence=44.6% (Emb=63.7%, KW=0.0%)
+2025-08-25 18:03:08,835 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:03:08] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-25 18:03:09,152 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:03:09] "GET / HTTP/1.1" 200 -
+2025-08-25 18:03:09,420 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:03:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 18:03:09,495 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:03:09,500 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:03:09] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 18:03:09,499 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 18:03:09,501 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:03:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 18:03:09,501 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:03:09] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2025-08-25 18:18:51,181 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:18:51] "GET / HTTP/1.1" 200 -
+2025-08-25 18:18:51,448 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:18:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 18:18:51,568 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:18:51,574 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:18:51] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 18:18:51,573 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 18:18:51,576 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:18:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 18:18:51,578 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:18:51] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2025-08-25 18:18:54,909 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:18:54] "GET / HTTP/1.1" 200 -
+2025-08-25 18:18:55,397 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:18:55,405 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:18:55] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 18:18:55,406 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:18:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 18:18:55,408 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:18:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 18:18:55,638 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 18:18:55,641 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:18:55] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2025-08-25 18:19:00,748 - logic - INFO - Diagnosis attempt: Input='fever...' -> Predicted='Hand, Foot, and Mouth Disease' Confidence=67.9% (Emb=54.1%, KW=100.0%)
+2025-08-25 18:19:00,764 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:19:00] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-25 18:19:01,082 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:19:01] "GET / HTTP/1.1" 200 -
+2025-08-25 18:19:01,350 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:19:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 18:19:01,442 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:19:01,444 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:19:01] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 18:19:01,445 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:19:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 18:19:01,445 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 18:19:01,446 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:19:01] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2025-08-25 18:20:35,884 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\__init__.py', reloading
+2025-08-25 18:20:35,897 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\app.py', reloading
+2025-08-25 18:20:35,933 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\sansio\\app.py', reloading
+2025-08-25 18:20:35,958 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-08-25 18:20:36,006 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\utils.py', reloading
+2025-08-25 18:20:36,030 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\config.py', reloading
+2025-08-25 18:20:37,801 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 18:20:52,295 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 18:20:52,296 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 18:20:52,302 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 18:20:52,302 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 18:20:52,312 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 18:20:52,312 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 18:20:56,569 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 18:20:56,745 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 18:20:56,747 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 18:20:56,778 - werkzeug - WARNING -  * Debugger is active!
+2025-08-25 18:20:56,797 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-25 18:21:27,911 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
+2025-08-25 18:21:27,912 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
+2025-08-25 18:21:29,200 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 18:21:41,048 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 18:21:41,049 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 18:21:41,055 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 18:21:41,055 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 18:21:41,066 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 18:21:41,066 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 18:21:45,219 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 18:21:45,403 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 18:21:45,404 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 18:21:45,435 - werkzeug - WARNING -  * Debugger is active!
+2025-08-25 18:21:45,455 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-25 18:21:46,135 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:21:46] "GET / HTTP/1.1" 200 -
+2025-08-25 18:21:46,137 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:21:46] "GET / HTTP/1.1" 200 -
+2025-08-25 18:21:46,138 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-08-25 18:21:46,475 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:21:46,477 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:21:46] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 18:21:46,574 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:21:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 18:21:46,583 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:21:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 18:21:46,735 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 18:21:46,737 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:21:46] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2025-08-25 18:21:48,389 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 18:22:00,634 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 18:22:00,635 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 18:22:00,642 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 18:22:00,642 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 18:22:00,655 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 18:22:00,655 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 18:22:35,965 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 18:22:35,965 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 18:22:35,971 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 18:22:35,971 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 18:22:35,979 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 18:22:35,979 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 18:22:40,088 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 18:22:40,269 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 18:22:40,269 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 18:22:41,583 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-08-25 18:22:41,583 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 18:22:41,603 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 18:22:53,088 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-25 18:22:53,088 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-25 18:22:53,093 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-25 18:22:53,093 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-25 18:22:53,103 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 18:22:53,104 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 18:22:57,278 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-25 18:22:57,444 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-25 18:22:57,445 - app - INFO - SymptomChecker initialized successfully.
+2025-08-25 18:22:57,474 - werkzeug - WARNING -  * Debugger is active!
+2025-08-25 18:22:57,495 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-25 18:22:58,167 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:22:58] "GET / HTTP/1.1" 200 -
+2025-08-25 18:22:58,168 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:22:58] "GET / HTTP/1.1" 200 -
+2025-08-25 18:22:58,171 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:22:58] "GET / HTTP/1.1" 200 -
+2025-08-25 18:22:58,260 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:22:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 18:22:58,498 - app - WARNING - 404 Error: Requested path '/assets/css/dark-mode.css' not found.
+2025-08-25 18:22:58,501 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:22:58] "[33mGET /assets/css/dark-mode.css HTTP/1.1[0m" 404 -
+2025-08-25 18:22:58,501 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:22:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-25 18:22:58,608 - app - WARNING - 404 Error: Requested path '/assets/js/theme.js' not found.
+2025-08-25 18:22:58,608 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 18:22:58] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -

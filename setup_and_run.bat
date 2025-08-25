@@ -69,7 +69,7 @@ IF NOT EXIST "%DATA_DIR%\diseases.csv" (
     REM (
     REM     echo disease,symptoms,treatment
     REM     echo Flu,"fever, cough","rest"
-    REM ) > "%DATA_DIR%\diseases.csv"
+    REM ) > z"%DATA_DIR%\diseases.csv"
     echo Continuing without original data. The application might fail if cleaned_diseases.csv is also missing.
 ) ELSE (
     echo "%DATA_DIR%\diseases.csv" found.
